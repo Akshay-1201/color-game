@@ -6,6 +6,7 @@ const randomcolor = () => {
     for(let i = 0 ; i < 6 ; i++) {
         con = con + val[Math.floor(Math.random() * 16)];
     }
+    return con;
 }
 console.log(randomcolor);
 function changerandomcolor () {
